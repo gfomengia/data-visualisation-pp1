@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Raleway&display=swap');
 
 * {
     margin: 0;
@@ -7,14 +7,15 @@
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     color: #3a3a3a;
 }
 
 /* headings and logo*/
-h1, h2 {
-    font-family: 'Lora', sans-serif;
+h1,
+h2 {
+    font-family: 'Raleway', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #252525;
@@ -25,4 +26,38 @@ h1, h2 {
     font-size: 200%;
     margin-left: 25px;
     text-transform: capitalize;
+}
+
+/* Navigation links*/
+
+#nav-menu {
+    font-size: 110%;
+    letter-spacing: 4px;
+}
+
+#nav-menu, #logo {
+    line-height: 60px;
+}
+
+#nav-menu {
+    float: right;
+    list-style: none;
+    display: flex;
+}
+
+#nav-menu li {
+    margin-right: 25px;
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#nav-menu a:hover {
+    color: #B4DFC5;
+}
+
+.active {
+    color: #B4DFC5;
 }
