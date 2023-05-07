@@ -61,3 +61,18 @@ h2 {
 .active {
     color: #B4DFC5;
 }
+
+/*hero image cover text and CTA*/
+
+
+#hero-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+
+#hero-image {
+    height: 500px;
+    background: url(../images/hero-image-1.jpeg);
+    width: 100%;
+}
