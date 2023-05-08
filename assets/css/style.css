@@ -72,7 +72,68 @@ h2 {
 }
 
 #hero-image {
-    height: 500px;
+    height: 600px;
     background: url(../images/hero-image-1.jpeg);
     width: 100%;
+}
+
+/*cover text and CTA*/
+
+#cover-text, #cover-text h2 {
+    color: #3a3a3a;
+}
+
+#cover-text {
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+    /* text-transform: uppercase; */
+    letter-spacing: 4px;
+
+    width: 350px;
+    height: 200px;
+
+    padding-top: 20px;
+    padding-left: 10px;
+
+    background-color: rgba(180, 223, 197, 0.5);
+    border-radius: 2px;
+
+    bottom: 20px;
+    left: 10px;
+    
+    position: absolute;
+}
+#cover-text h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.cta-button {
+    /* display: flex; */
+    text-decoration: none;
+    border: 2px solid #44AF69;
+    border-color: #44AF69;
+    background-color: #44AF69;
+    border-radius: 4px;
+
+    font-size: 120%;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 4px;
+    font-weight: 600;
+    color: #fff;
+    
+    width: 350px;
+    height: 20px;
+    
+    padding: 12px;
+    /* padding-left: 10px; */
+    
+    bottom: 100px;
+    left: 10px;  
+    
+    position: relative;
+}
+
+.cta-button:hover {
+    color: #B4DFC5;
 }
