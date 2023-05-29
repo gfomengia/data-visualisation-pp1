@@ -80,21 +80,58 @@ p {
     color: #206A5D;
 }
 
-.nav-menu a.btn {
-    padding: 8px 20px;
+
+
+
+
+.hero-section {
+    clear: both;
+    background-color: aqua;
+    height: 500px;
+}
+
+.hero-section .hero-left {
+    float: left;
+    margin-left: 20px;
+}
+
+.hero-section h2 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 50px;
+    color: #444444;
+    width: 580px;
+}
+
+.hero-section p {
+    color: #444444;
+    font-size: 20px;
+    width: 580px;
+}
+
+.hero-section .hero-right {
+    float: right;
+    margin-right: 20px;
+
+}
+
+.hero-section .hero-right img {
+    height: 500px;
 }
 
 a.btn {
     background-color: #44AF69;
     /* Set your primary green color */
-    color: #b10c0c;
+    color: #ffffff;
     /* Set your desired text color */
     padding: 12px 20px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700px;
     text-decoration: none;
     border-radius: 8px;
     transition: background-color 0.3s ease;
+    display: inline-block;
 }
 
 a.btn:hover {
@@ -102,13 +139,15 @@ a.btn:hover {
     /* Set your dark green color for hover state */
 }
 
-/* a.btn.dark:hover {
-    color: #ffffff;
-} */
+.hero-section a.btn.dark {
+    color: #444444;
+}
 
+.hero-section a.btn {
+    margin-top: 20px;
+    margin-right: 20px;
+}
 
-
-.hero-section,
 .test {
     display: none;
 }
