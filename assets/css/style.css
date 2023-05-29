@@ -10,14 +10,15 @@ body {
     font-family: "Poppins", sans-serif;
     font-weight: 300;
     color: #3a3a3a;
-    height: 100vh;
+    background-color: #f2f2f2;
+    /* height: 100vh; */
 }
 
 /*Give the website a max-width for desktop*/
-.main-container {
+/* .main-container {
     width: 1200px;
     margin: 0 auto;
-}
+} */
 
 /*headings and logo*/
 
@@ -26,10 +27,88 @@ h2 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #252525;
+    color: #0077B5;
+}
+
+p {
+    color: #444444;
+    /* Set your desired text color */
+    font-size: 16px;
 }
 
 #logo {
-    loat: left;
+    float: left;
     font-size: 200%;
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+/* Navigation links*/
+
+#nav-menu {
+    float: right;
+    font-size: 110%;
+    letter-spacing: 4px;
+
+}
+
+#nav-menu li {
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+
+#nav-menu a {
+    text-decoration: none;
+    color: inherit;
+    font-weight: 600;
+    /* margin-right: 10px; */
+
+}
+
+#nav-menu,
+#logo {
+    line-height: 75px;
+}
+
+#nav-menu a:hover {
+    color: #206A5D;
+}
+
+.active {
+    color: #206A5D;
+}
+
+.nav-menu a.btn {
+    padding: 8px 20px;
+}
+
+a.btn {
+    background-color: #44AF69;
+    /* Set your primary green color */
+    color: #b10c0c;
+    /* Set your desired text color */
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 700px;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #206A5D;
+    /* Set your dark green color for hover state */
+}
+
+/* a.btn.dark:hover {
+    color: #ffffff;
+} */
+
+
+
+.hero-section,
+.test {
+    display: none;
 }
