@@ -12,6 +12,7 @@ body {
     color: #f4f4f4;
     background-color: #060606;
     height: 100vh;
+
 }
 
 /*Give the website a max-width for desktop*/
@@ -126,7 +127,7 @@ a.btn {
     /* Set your primary green color */
     color: #ffffff;
     /* Set your desired text color */
-    padding: 12px 20px;
+    padding: 15px;
     font-size: 20px;
     font-weight: 700px;
     text-decoration: none;
@@ -181,7 +182,42 @@ a.btn:hover {
 
 .button a.btn.seemore {
     clear: both;
-    padding: 10px;
+    padding: 20px;
     margin: 40px 40%;
+    /* margin: 40px auto; */
 
+
+
+
+}
+
+.aboutus-text h2 {
+
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 40px;
+    color: #f4f4f4;
+    /* width: 580px; */
+}
+
+.aboutus-text p {
+    color: #f4f4f4;
+    font-size: 20px;
+    padding-top: 10px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+footer {
+    margin: 40px auto;
+    text-align: center;
+    height: 100px;
+}
+
+footer a {
+    width: 60px;
+    height: 60px;
+    margin: 20px 15px;
+    text-decoration: none;
 }
