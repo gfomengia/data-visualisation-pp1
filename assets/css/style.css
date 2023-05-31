@@ -11,15 +11,19 @@ body {
     font-weight: 300;
     color: #f4f4f4;
     background-color: #060606;
-    height: 100vh;
+    /* height: 100vh; */
+
+    /* background-color: #f2f2f2; */
+
 
 }
 
-/*Give the website a max-width for desktop*/
-/* .main-container {
-    width: 1200px;
+/*Give the website a max-width of 1200px for desktop*/
+.main-container {
+    max-width: 1200px;
     margin: 0 auto;
-} */
+    padding: 20px;
+}
 
 /*headings and logo*/
 
@@ -38,11 +42,18 @@ p {
     font-size: 16px;
 }
 
+
+
 #logo {
     float: left;
-    font-size: 200%;
+    /* font-size: 200%; */
     font-weight: bold;
     margin-left: 20px;
+
+
+    font-size: 24px;
+    color: #0077B5;
+    /* Set your primary blue color */
 }
 
 /* Navigation links*/
@@ -210,14 +221,48 @@ a.btn:hover {
 }
 
 footer {
-    margin: 40px auto;
-    text-align: center;
-    height: 100px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
 
-footer a {
-    width: 60px;
-    height: 60px;
-    margin: 20px 15px;
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-links a {
+    margin-right: 10px;
     text-decoration: none;
+    color: #444444;
+}
+
+.footer-links a:hover {
+    color: #0077B5;
+}
+
+.footer-social {
+    margin-top: 10px;
+}
+
+.social-link {
+    display: inline-block;
+    margin-right: 10px;
+    color: #444444;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.social-link:hover {
+    color: #0077B5;
+}
+
+
+
+
+.hero-section,
+.service-block,
+.aboutus,
+footer {
+    display: none;
 }
