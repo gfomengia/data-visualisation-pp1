@@ -46,14 +46,10 @@ p {
 
 #logo {
     float: left;
-    /* font-size: 200%; */
-    font-weight: bold;
-    margin-left: 20px;
-
-
     font-size: 24px;
     color: #0077B5;
     /* Set your primary blue color */
+    font-weight: bold;
 }
 
 /* Navigation links*/
@@ -62,12 +58,11 @@ p {
     float: right;
     font-size: 110%;
     letter-spacing: 4px;
-
 }
 
 #nav-menu li {
     list-style: none;
-    margin-right: 20px;
+    margin-left: 20px;
     display: inline-block;
 
 }
@@ -75,23 +70,28 @@ p {
 #nav-menu a {
     text-decoration: none;
     color: inherit;
+    /* color: #333333; */
     font-weight: 600;
     /* margin-right: 10px; */
 
 }
 
-#nav-menu,
-#logo {
-    line-height: 75px;
-}
-
 #nav-menu a:hover {
-    color: #206A5D;
+    /* color: #206A5D; */
+    color: #0077B5;
 }
 
 .active {
-    color: #206A5D;
+    /* color: #206A5D; */
+    color: #0077B5;
 }
+
+#nav-menu,
+#logo {
+    line-height: 50px;
+}
+
+
 
 
 /*hero section*/
