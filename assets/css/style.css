@@ -19,7 +19,7 @@ body {
 }
 
 /*Give the website a max-width of 1200px for desktop*/
-.main-container {
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
@@ -98,7 +98,7 @@ p {
 
 .hero-section {
     clear: both;
-    height: 500px;
+    /* height: 500px; */
 
     /* background-color: red; */
     /* background-color: #f2f2f2; */
@@ -108,7 +108,7 @@ p {
 
 .hero-content-left {
     float: left;
-    width: 40%;
+    width: 50%;
     padding-right: 50px;
 }
 
@@ -134,7 +134,7 @@ p {
 .hero-image-right {
 
     float: right;
-    width: 50%;
+    width: 45%;
 }
 
 .hero-image-right img {
@@ -180,20 +180,28 @@ p {
 }
 */
 
-/*services and product section*/
-.service-block {
-    background-color: rgb(235, 240, 240);
-
+/*services section*/
+.service-section {
+    clear: both;
+    padding: 50px 0;
+    text-align: center;
+    /* background-color: rgb(235, 240, 240); */
+    background-color: #3c4cb4;
+    min-height: 600px;
 
 }
 
 .service-heading {
     text-align: center;
-    padding-top: 50px;
+    /* color: #0077B5; */
+    /* Set your desired text color */
+    font-size: 32px;
+    margin-bottom: 20px;
+
 
 }
 
-.column {
+/* .column {
     float: left;
     width: 30%;
     padding: 10px;
@@ -208,18 +216,71 @@ p {
     text-align: center;
 
 
+} */
+
+.service {
+    background-color: #b43c3c;
+    /* background-color: #f2f2f2; */
+    /* Set your desired background color */
+    padding: 10px;
+    text-align: left;
+    float: left;
+    width: 30%;
+    margin-right: 2%;
+    margin-bottom: 30px;
+    min-height: 200px;
+
 }
 
-.button a.btn.seemore {
+.service:last-child {
+    float: right;
+    margin-right: 0;
+}
+
+.service h2 {
+    color: #333333;
+    /* Set your desired text color */
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    color: #666666;
+    /* Set your desired text color */
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.cta-buttons {
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    background-color: #0077B5;
+    /* Set your desired button background color */
+    color: #FFFFFF;
+    /* Set your desired button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #005F8E;
+    /* Set your desired button hover background color */
+}
+
+/* .button a.btn.seemore {
     clear: both;
     padding: 20px;
     margin: 40px 40%;
-    /* margin: 40px auto; */
+    margin: 40px auto;
 
-
-
-
-}
+} */
 
 .aboutus-text h2 {
 
@@ -277,7 +338,7 @@ footer {
 }
 
 
-.service-block,
+
 .aboutus,
 footer {
     display: none;
