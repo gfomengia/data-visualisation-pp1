@@ -168,19 +168,8 @@ p {
 }
 
 
-
-/* 
-.hero-section a.btn.dark {
-    color: #444444;
-}
-
-.hero-section a.btn {
-    margin-top: 20px;
-    margin-right: 20px;
-}
-*/
-
 /*services section*/
+
 .service-section {
     clear: both;
     padding: 50px 0;
@@ -265,6 +254,8 @@ p {
     /* Set your desired button hover background color */
 }
 
+/* start of About us section */
+
 .aboutus-section {
     padding: 50px 0;
     text-align: center;
@@ -297,6 +288,8 @@ p {
     /* Set your desired text color */
 
 }
+
+/* start of footer*/
 
 footer {
     background-color: #f2f2f2;
@@ -333,11 +326,4 @@ footer {
 
 .social-link:hover {
     color: #0077B5;
-}
-
-
-
-
-footer {
-    display: none;
 }
