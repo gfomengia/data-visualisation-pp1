@@ -174,8 +174,8 @@ p {
     clear: both;
     padding: 50px 0;
     text-align: center;
-    /* background-color: rgb(235, 240, 240); */
-    background-color: #3c4cb4;
+    background-color: rgb(212, 238, 238);
+    /* background-color: #3c4cb4; */
     min-height: 600px;
 
 }
@@ -191,8 +191,8 @@ p {
 }
 
 .service {
-    background-color: #b43c3c;
-    /* background-color: #f2f2f2; */
+    /* background-color: #b43c3c; */
+    background-color: #f2f2f2;
     /* Set your desired background color */
     float: left;
     padding: 10px;
@@ -292,7 +292,8 @@ p {
 /* start of footer*/
 
 footer {
-    background-color: #f2f2f2;
+    /* background-color: #f2f2f2; */
+    background-color: rgb(212, 238, 238);
     padding: 20px;
 }
 
@@ -326,4 +327,46 @@ footer {
 
 .social-link:hover {
     color: #0077B5;
+}
+
+
+/* Tablet styles */
+
+@media screen and (max-width: 768px) {
+    .container {
+        max-width: 768px;
+        padding: 15px;
+    }
+}
+
+/* Mobile styles */
+
+@media screen and (max-width: 480px) {
+    .container {
+        max-width: 480px;
+        padding: 10px;
+    }
+
+    #nav-menu li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    .hero-content-left {
+        float: none;
+        width: 100%;
+        padding-right: 0;
+    }
+
+    .hero-image-right {
+        float: none;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .service {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
 }
