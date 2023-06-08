@@ -14,7 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
         integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Contact Us | Sixth Sense</title>
+    <title>Data Visualisation Made Easy | Sixth Sense</title>
 </head>
 
 <body>
@@ -30,7 +30,7 @@
                             aria-label="Go to Services page (opens in a new tab)">Services</a>
                     </li>
                     <li>
-                        <a href="#aboutus" class="active">About Us</a>
+                        <a href="index.html#aboutus" class="active">About Us</a>
                     </li>
                     <li>
                         <a href="contact-us.html" class="active" target="_blank" rel="noopener"
@@ -57,91 +57,32 @@
                 </div>
             </div>
         </section>
-        <section class="service-section">
-            <h2 class="service-heading">Our Services</h2>
+        <section class="service-section form-section">
             <div class="container">
-                <div class="service" id="products">
-                    <h2>Data Analysis</h2>
-                    <p>Sixth Sense can analyze a business's data to uncover trends, patterns, and opportunities for
-                        improvement.</p>
-                </div>
-                <div class="service">
-                    <h2>Predictive Analytics</h2>
-                    <p>Sixth Sense can use advanced statistical techniques to predict future trends and outcomes based
-                        on historical
-                        data.</p>
-                </div>
-                <div class="service">
-                    <h2>Data Visualization Design</h2>
-                    <p>Sixth Sense can help businesses turn their data into visually engaging informative graphics that
-                        help
-                        communicate insights to stakeholders.</p>
-                </div>
+                <h2 class="form-heading">Contact Us</h2>
+                <div class="form-container">
+                    <form action="#" method="POST" id="contact-form">
+                        <div class="form-group">
+                            <label for="name">Name:</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
 
+                        <div class="form-group">
+                            <label for="email">Email:</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message:</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+
+                        <div class="form-group">
+                            <button type="submit">Submit</button>
+                        </div>
+                    </form>
+                </div>
             </div>
-            <div class="container">
-                <div class="service">
-                    <h2>Data Analysis</h2>
-                    <p>Sixth Sense can analyze a business's data to uncover trends, patterns, and opportunities for
-                        improvement.</p>
-                </div>
-                <div class="service">
-                    <h2>Predictive Analytics</h2>
-                    <p>Sixth Sense can use advanced statistical techniques to predict future trends and outcomes based
-                        on historical
-                        data.</p>
-                </div>
-                <div class="service">
-                    <h2>Data Visualization Design</h2>
-                    <p>Sixth Sense can help businesses turn their data into visually engaging informative graphics that
-                        help
-                        communicate insights to stakeholders.</p>
-                </div>
-
-            </div>
-
-
-            <div class="cta-buttons">
-                <a href="services.html" class="button">Learn More <i class="fa-solid fa-arrow-right"></i></a>
-            </div>
-        </section>
-        <section id="aboutus" class="aboutus-section">
-            <div class="aboutus-main">
-                <div class="aboutus-text">
-                    <h2 class="service-heading">Who We Are</h2>
-                    <p>
-                        At Sixth Sense Data Visualization, we specialize in transforming complex data into compelling
-                        visualizations that
-                        empower businesses to make informed decisions. Our team of data experts and visualization
-                        designers
-                        are dedicated to
-                        helping you unlock the true potential of your data.
-                    </p>
-                    <p>
-                        With our cutting-edge technology and expertise, we provide innovative solutions that drive
-                        actionable insights,
-                        improve performance, and maximize your business outcomes. Whether you need interactive
-                        dashboards, data-driven
-                        reports, or custom visualizations, we have the tools and knowledge to deliver impactful results.
-                    </p>
-                    <p>
-                        Our mission is to bridge the gap between data and decision-making, enabling businesses to stay
-                        ahead in today's
-                        data-driven world. We understand the unique challenges you face and strive to provide tailored
-                        solutions that meet
-                        your specific needs. With Sixth Sense Data Visualization, you can transform raw data into
-                        valuable knowledge and
-                        gain a competitive edge in your industry.
-                    </p>
-                    <p>
-                        Contact us today to discover how our data visualization services can revolutionize the way you
-                        analyze, understand,
-                        and leverage your data.
-                    </p>
-                </div>
-                <div class="cta-buttons">
-                    <a href="#" class="button">Contact Us</a>
-                </div>
         </section>
 
         <footer>
@@ -165,7 +106,6 @@
                 <p>&copy; 2023 Sixth Sense Data Visualization</p>
             </div>
         </footer>
-    </div>
 </body>
 
 </html>

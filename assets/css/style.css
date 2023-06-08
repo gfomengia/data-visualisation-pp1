@@ -171,12 +171,69 @@ p {
 /*services section*/
 
 .service-section {
+    text-align: center;
+    padding: 50px 0;
+    background-color: rgb(212, 238, 238);
+}
+
+.service-heading {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.service {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border: 1px solid #cccccc;
+    border-radius: 8px;
+}
+
+.service h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.service p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.cta-buttons {
+    clear: both;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.button {
+
+    background-color: #44AF69;
+    /* Set your primary green color */
+    /* background-color: #0077B5; */
+    /* Set your desired button background color */
+    color: #ffffff;
+    /* Set your desired button text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.button:hover {
+    background-color: #206A5D;
+    /* background-color: #005F8E; */
+    /* Set your desired button hover background color */
+}
+
+.service-section {
     clear: both;
     padding: 50px 0;
     text-align: center;
     background-color: rgb(212, 238, 238);
     /* background-color: #3c4cb4; */
-    min-height: 600px;
+    /* min-height: 200px; */
 
 }
 
@@ -200,7 +257,7 @@ p {
     border: 1px solid;
     border-radius: 10px;
     width: 30%;
-    margin-right: 2%;
+    margin-right: 10px;
     margin-bottom: 30px;
     min-height: 200px;
 
@@ -332,41 +389,138 @@ footer {
 
 /* Tablet styles */
 
-@media screen and (max-width: 768px) {
-    .container {
-        max-width: 768px;
-        padding: 15px;
+@media (max-width: 991px) {
+    .hero-section {
+        padding: 50px 0;
+    }
+
+    .hero-content-left,
+    .hero-image-right {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+
+    .hero-content-left h2 {
+        font-size: 26px;
+    }
+
+    .hero-image-right {
+        margin-top: 20px;
+    }
+
+    .service-section {
+        padding: 50px 0;
+    }
+
+    .service {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .service-section .service:last-child {
+        float: none;
     }
 }
 
 /* Mobile styles */
 
-@media screen and (max-width: 480px) {
+@media (max-width: 767px) {
     .container {
-        max-width: 480px;
         padding: 10px;
+    }
+
+    #logo {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    #nav-menu {
+        text-align: center;
+        margin-bottom: 10px;
     }
 
     #nav-menu li {
         display: block;
-        margin-bottom: 10px;
+        margin: 10px 0;
     }
 
-    .hero-content-left {
-        float: none;
-        width: 100%;
-        padding-right: 0;
+    .hero-content-left h2 {
+        font-size: 22px;
     }
 
     .hero-image-right {
-        float: none;
-        width: 100%;
-        margin-top: 20px;
+        display: none;
+    }
+
+    .service-section {
+        padding: 30px 0;
     }
 
     .service {
         width: 100%;
         margin-right: 0;
         margin-bottom: 20px;
+    }
+}
+
+
+/* Form styles */
+.form-container {
+    clear: both;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: 0;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .container {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        font-size: 14px;
+    }
+
+    button[type="submit"] {
+        font-size: 14px;
     }
 }
