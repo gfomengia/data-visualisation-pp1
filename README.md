@@ -1,10 +1,10 @@
 
 # SIXTH SENSE
 
-The main purpose of this website is to provide reports and insights to small and medium size business owners. The reports in the intractive dashboards reports that each of then can easliy understand and make fast and informed decision while focising on growing thier business. 
+The main purpose of this website is to provide reports and insights to small and medium size business owners. These reports presented in intractive dashboards that are easliy understand and tailored to each individual. With the help these data, quick and informed decisons can me made allowing the owners more time in growing thier business.  
 
 
-![Responsiveness Display](/assets/images/responsive.webp)
+![Responsiveness Display](/assets/images/sixthsense-eeponsive-view.png)
 
 ## Features
 
