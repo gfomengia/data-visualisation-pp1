@@ -109,7 +109,7 @@ The main purpose of this website is to provide reports and insights to small and
   - From the source section, select the Main Branch
   - Once the main branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
 
-The live link can be found here - <https://conrdav.github.io/first-project/>
+The live link can be found here - <https://gfomengia.github.io/data-visualisation-pp1/>
 
 ## Credits
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
 
 * {
     margin: 0;
@@ -14,8 +14,6 @@ body {
     /* height: 100vh; */
 
     /* background-color: #f2f2f2; */
-
-
 }
 
 /*Give the website a max-width of 1200px for desktop*/
@@ -30,10 +28,10 @@ body {
 h1,
 h2,
 h3 {
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #0077B5;
+    color: #0077b5;
 }
 
 p {
@@ -42,57 +40,67 @@ p {
     font-size: 16px;
 }
 
-
-
+/* Base styles for the logo and nav-menu */
 #logo {
     float: left;
     font-size: 24px;
-    color: #0077B5;
+    color: #0077b5;
     /* Set your primary blue color */
     font-weight: bold;
+    line-height: 50px;
 }
 
-/* Navigation links*/
-
+/* Navigation links */
 #nav-menu {
     float: right;
     font-size: 110%;
     letter-spacing: 4px;
+    line-height: 50px;
+    display: flex;
 }
 
 #nav-menu li {
     list-style: none;
     margin-left: 20px;
-    display: inline-block;
-
 }
 
 #nav-menu a {
     text-decoration: none;
     color: inherit;
-    /* color: #333333; */
     font-weight: 600;
-    /* margin-right: 10px; */
-
 }
 
 #nav-menu a:hover {
-    /* color: #206A5D; */
-    color: #0077B5;
+    color: #0077b5;
 }
 
 .active {
-    /* color: #206A5D; */
-    color: #0077B5;
+    color: #0077b5;
 }
 
-#nav-menu,
-#logo {
-    line-height: 50px;
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #logo {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+
+    #nav-menu {
+        float: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 5px;
+        padding: 0px;
+        font-size: 15px;
+    }
+
+    #nav-menu li {
+        margin-left: 10px;
+    }
 }
-
-
-
 
 /*hero section*/
 
@@ -132,7 +140,6 @@ p {
 }
 
 .hero-image-right {
-
     float: right;
     width: 45%;
 }
@@ -147,7 +154,7 @@ p {
 }
 
 .btns a {
-    background-color: #44AF69;
+    background-color: #44af69;
     /* Set your primary green color */
     color: #ffffff;
     /* Set your desired text color */
@@ -163,10 +170,9 @@ p {
 }
 
 .btns a:hover {
-    background-color: #206A5D;
+    background-color: #206a5d;
     /* Set your dark green color for hover state */
 }
-
 
 /*services section*/
 
@@ -206,8 +212,7 @@ p {
 }
 
 .button {
-
-    background-color: #44AF69;
+    background-color: #44af69;
     /* Set your primary green color */
     /* background-color: #0077B5; */
     /* Set your desired button background color */
@@ -222,19 +227,18 @@ p {
 }
 
 .button:hover {
-    background-color: #206A5D;
+    background-color: #206a5d;
     /* background-color: #005F8E; */
     /* Set your desired button hover background color */
 }
 
 .service-section {
     clear: both;
-    padding: 50px 0;
+    padding: 50px;
     text-align: center;
     background-color: rgb(212, 238, 238);
     /* background-color: #3c4cb4; */
     /* min-height: 200px; */
-
 }
 
 .service-heading {
@@ -243,8 +247,6 @@ p {
     /* Set your desired text color */
     font-size: 32px;
     margin-bottom: 20px;
-
-
 }
 
 .service {
@@ -257,10 +259,9 @@ p {
     border: 1px solid;
     border-radius: 10px;
     width: 30%;
-    margin-right: 10px;
-    margin-bottom: 30px;
+    max-width: fit-content;
     min-height: 200px;
-
+    margin: 5px;
 }
 
 .service:last-child {
@@ -290,8 +291,7 @@ p {
 }
 
 .button {
-
-    background-color: #44AF69;
+    background-color: #44af69;
     /* Set your primary green color */
     /* background-color: #0077B5; */
     /* Set your desired button background color */
@@ -306,7 +306,7 @@ p {
 }
 
 .button:hover {
-    background-color: #206A5D;
+    background-color: #206a5d;
     /* background-color: #005F8E; */
     /* Set your desired button hover background color */
 }
@@ -329,11 +329,8 @@ p {
     font-size: 32px;
     color: #f4f4f4;
 
-
     /* color: #0077B5; */
     /* Set your desired text color */
-
-
 }
 
 .aboutus-text p {
@@ -343,7 +340,6 @@ p {
     margin-bottom: 20px;
     /* color: #666666; */
     /* Set your desired text color */
-
 }
 
 /* start of footer*/
@@ -367,7 +363,7 @@ footer {
 }
 
 .footer-links a:hover {
-    color: #0077B5;
+    color: #0077b5;
 }
 
 .footer-social {
@@ -383,9 +379,8 @@ footer {
 }
 
 .social-link:hover {
-    color: #0077B5;
+    color: #0077b5;
 }
-
 
 /* Tablet styles */
 
@@ -465,7 +460,6 @@ footer {
     }
 }
 
-
 /* Form styles */
 .form-container {
     clear: both;
@@ -522,5 +516,71 @@ button[type="submit"]:hover {
 
     button[type="submit"] {
         font-size: 14px;
+    }
+}
+
+.gallery-section {
+    text-align: center;
+    padding: 50px 50px;
+    margin: 50px;
+    background-color: #f2f2f2;
+    max-height: 100vh;
+    /* Set the max height to the height of the viewport */
+    overflow: hidden;
+    /* Hide any content that exceeds the max height */
+    max-width: 800px;
+}
+
+.gallery-container {
+    display: grid;
+    /* Use CSS Grid for the gallery container */
+    grid-template-columns: repeat(3,
+            1fr);
+    /* 3 items per row on larger screens (>990px) */
+    gap: 20px;
+    /* Add some spacing between the images */
+    justify-content: center;
+}
+
+.gallery-container img {
+    width: 100%;
+    height: auto;
+    /* Ensure the images maintain their aspect ratio */
+    object-fit: cover;
+    border: 2px solid #cccccc;
+    border-radius: 8px;
+}
+
+/* Optional styling for larger images on bigger screens */
+@media (min-width: 768px) and (max-width: 990px) {
+    .gallery-container {
+        grid-template-columns: repeat(2,
+                1fr);
+        /* 2 items per row on screens >768px */
+    }
+
+    .gallery-container img {
+        width: 100%;
+        height: auto;
+        /* Ensure the images maintain their aspect ratio */
+        object-fit: cover;
+        border: 2px solid #cccccc;
+        border-radius: 8px;
+    }
+}
+
+/* For screens smaller than 768px */
+@media (max-width: 767px) {
+    .gallery-container {
+        grid-template-columns: 1fr;
+        /* 1 item per row on screens <768px */
+    }
+}
+
+/* For screens larger than 990px */
+@media (min-width: 991px) {
+    .gallery-container {
+        max-width: 1200px;
+        margin: 0 auto;
     }
 }
