@@ -13,30 +13,29 @@ The main purpose of this website is to provide reports and insights to small and
 - __Navigation Bar__
 
   - Navigation Bar featured on all four pages. This allows visitors to navigate effortlessly through the different pages.
+  - Sticky navigation bar on all pages as you scroll.
 
-![Navigation bar](/assets/images/nav-bar.webp)
+![Navigation bar](/assets/images/sixthsense-nav-bar.png)
 
 - __Home Page__
 
   - On first visit, the visitor can clearly understand the ethos of this website based on the hero section which is clearly above the fold and the service section. 
 
-![Index page](/assets/images/index-page.webp)
+![Index page](/assets/images/sixthsense-desktop.png)
 
    - __Service Section__
 
-    - This section will shows the user the day andtimings for different age groups leagues.
+    - This section will show user what we offer and the ethos of Sixth Sense.
     - This section will be updated as these times change to keep the user up to date.
 
-  ![Service Section](/assets/images/times.webp)
+  ![Service Section](/assets/images/sixthsense-service-section.png)
 
   - __About Us Section__
    
-
     - It explains everything about who and what Sixth Sense are. 
     - Small business will benefit from the affortable services provided by Sixth Sense as it falls within their budjet. 
   
-
-  ![About US](/assets/images/about.webp)
+  ![About US](/assets/images/sixthsense-about-us.png)
   
 
 
@@ -44,7 +43,7 @@ The main purpose of this website is to provide reports and insights to small and
 
   - The footer section includes links to the relevant social media sites for Sixth Sense. The links open up into new tabs improving the user experience.  
 
-![Footer](/assets/images/footer.webp)
+![Footer](/assets/images/sixthsense-footer.png)
 
 - __Gallery Page__
 
