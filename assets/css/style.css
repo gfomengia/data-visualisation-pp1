@@ -342,6 +342,10 @@ footer {
     max-width: 800px;
 }
 
+.gallery-heading {
+    padding-bottom: 20px;
+}
+
 .gallery-container {
     display: grid;
     /* Use CSS Grid for the gallery container */

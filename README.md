@@ -50,10 +50,9 @@ The main purpose of this website is to provide reports and insights to small and
   - The gallery will provide the user with  images showing different ways in which data will be displayed in their dashboard..
   - This gallery will be updated with new tools as new tecknology is added.
 
- ![](/assets/images/gallery-1.webp)
- ![](/assets/images/gallery-2.webp)
- ![](/assets/images/gallery-3.webp)
-
+ ![](/assets/images/sixthsense-gallerypage.png)
+ 
+ 
 - __Contact Us Page__
 
   - This page will serve as request for demo and to ask any questions they may have. This could be related to quotes, demo etc. 
