@@ -372,6 +372,13 @@ footer {
 }
 
 /* Contact us Form styles */
+
+.form-heading-p {
+    font-size: 20px;
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
 .form-container {
     clear: both;
     width: 40%;

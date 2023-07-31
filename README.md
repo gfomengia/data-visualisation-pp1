@@ -47,7 +47,8 @@ The main purpose of this website is to provide reports and insights to small and
 
 - __Gallery Page__
 
-  - The gallery will provide the user with  images showing different ways in which data will be displayed in their dashboard..
+  - The gallery will provide the user with  images showing different ways in which data will be displayed in their dashboard.
+  - Hover and scale effect was added.
   - This gallery will be updated with new tools as new tecknology is added.
 
  ![](/assets/images/sixthsense-gallerypage.png)
@@ -57,7 +58,7 @@ The main purpose of this website is to provide reports and insights to small and
 
   - This page will serve as request for demo and to ask any questions they may have. This could be related to quotes, demo etc. 
 
-  ![Contact](/assets/images/contact.webp)
+  ![Contact](/assets/images/sixthsense-contact-us.png)
   
 
 ### Features Left to Implement
@@ -67,20 +68,19 @@ The main purpose of this website is to provide reports and insights to small and
   
 ## Testing
 
-![Responsiveness Display](/assets/images/responsive.webp)
+![Responsiveness Homepage](/assets/images/sixthsense-eeponsive-view.png)
 
-- The header and navigation bar is responsive on all screens. However the logo was removed on screen sizes 320x480px as the text was uneligble if it was kept.
+- The header and navigation bar are responsive on all screens. We removed the hero image for all screens width lower than 766px. 
 
-- The about us page is responsive and its style is similar on screen sizes. As shown in the image below.
-![Responsiveness About Page](/assets/images/responsive-about.webp)
+-The gallery page is responsive on all screen sizes as well. 
 
--The gallery page is responsive on all screen sizes apart from 320x480px in the image below it looks repsponsive but on the deployed site the header is pushed to the right hand side along with the footer.
-![Responsiveness Gallery Page](/assets/images/responsive-gallery.webp)
+![Responsiveness Gallery Page](/assets/images/sixthsense-reponsive-gallery.png)
 
 - The contact us page is responsive on all screen sizes and there were no issues when trying to make it responsive.
-![Responsiveness Contact Page](/assets/images/responsive-contact.webp)
 
--This website was tested on a Samsung A52S 5G mobile phone, Iphone 11, Ipad Air 2 and  where all aspects of the website were responsive.
+![Responsiveness Contact Page](/assets/images/sixthsense-reponsive-contactus.png)
+
+-This website was responsive on the following devices: Samsung S8+, Samsung Galaxy S20 Ultra, Iphone 12 Pro, Ipad Air mini, Surface Pro 7.
 
 ### Validator Testing
 
@@ -95,9 +95,6 @@ The main purpose of this website is to provide reports and insights to small and
 
 -Link found here: <https://lighthouse-dot-webdotdevsite.appspot.com//lh/html?url=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F>
 
-### Unfixed Bugs
-
-- The only unfixed bug found is on screen size 320x480px for the gallery page where the header and footer only shows half and looks pushed to the right. This only affects the gallery page all the other pages header and footer at this size work. The reason for this was the fling minislide so that has been removed for screen sizes less than 400px as it was affecting the running of the page.
 
 ## Deployment
 
@@ -116,13 +113,11 @@ The live link can be found here - <https://gfomengia.github.io/data-visualisatio
 ### Content
 
 - The social media icons were taken from [Font Awesome](https://fontawesome.com/)
-- The responsive image gallery was taken from W3 Schools (<https://www.w3schools.com/css/css_image_gallery.asp>).
+
 
 ### Media
 
 - The images for the responsive gallery were all taken from <https://www.freepik.com/>, <https://unsplash.com/> and <https://www.shutterstock.com/>.
-- The images for the fling minislide were all from google images then compressed into WebP files. I take no credit for these images and are used for educational purposes only.
--The youtube video was taken from Gilette UK and i take no credit for it. A link to their youtube channel - <https://www.youtube.com/channel/UC0f7oNC5jYvzlgA06IxkqMA>.
-
+  
 - __Notes__
-    -Flex was used for certain parts of the css to style the nav bar, hero sesction and the services section though at this stage of the course we have not yet been intoriduced to this type of CSS.
+    -Flex was used for certain parts of the css to style the nav bar, hero sesction and the services section though at this stage of the course we have not yet been intoriduced to this type of CSS. <https://www.w3schools.com/css/css3_flexbox_responsive.asp>
