@@ -82,11 +82,21 @@ The main purpose of this website is to provide reports and insights to small and
 
 -This website was responsive on the following devices: Samsung S8+, Samsung Galaxy S20 Ultra, Iphone 12 Pro, Ipad Air mini, Surface Pro 7.
 
+## Solved bugs
+
+ - When I ran my code through the HTML W3C validator, I was given an error message on no closing tag on a div. This was fixed by adding the matching open tag.
+ - Another error i received when using the W3C validator was that I did not quote my font-family value so I went back to the code and added them in.
+When testing the links in the header section they would not work. I fixed this by adding a height to the header which fixed the problem.
+ - The background image on the form section was not loading on some mobile devices and some web browsers so I converted the image to WEBP and this fixed the problem.
+
+
 ### Validator Testing
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator] - <https://validator.w3.org/nu/?doc=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F>
-- CSS
+  - No errors were returned when passing through the official [W3C validator] - <https://validator.w3.org/nu/?showsource=yes&doc=https%3A%2F%2Fgfomengia.github.io%2Fdata-visualisation-pp1%2F>
+  
+  ![W3C Markup validator](/assets/images/sixthsense-W3C-markup-validator.png)
+
   - No errors were found when passing through the official [(Jigsaw) validator] - <https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fconrdav.github.io%2Ffirst-project%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en>
 
 ### Lighthouse Testing
