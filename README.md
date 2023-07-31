@@ -119,5 +119,5 @@ The live link can be found here - <https://gfomengia.github.io/data-visualisatio
 
 - The images for the responsive gallery were all taken from <https://www.freepik.com/>, <https://unsplash.com/> and <https://www.shutterstock.com/>.
   
-- __Notes__
+### Notes
     -Flex was used for certain parts of the css to style the nav bar, hero sesction and the services section though at this stage of the course we have not yet been intoriduced to this type of CSS. <https://www.w3schools.com/css/css3_flexbox_responsive.asp>
